@@ -102,10 +102,12 @@ namespace WindowsProcessControlTest
             ps = myProcess.getAllProcess();
             int n;
             string s;
-             
+
             foreach (string p in ps)
             {
+                //GTA@1234
                 n = p.LastIndexOf("@");
+                //GTA (ID:1234)
                 s = p.Substring(0, n) + " (ID:" + p.Substring(n + 1, p.Length - n - 1) + ")";
                 listBox1.Items.Add(s);
             }
