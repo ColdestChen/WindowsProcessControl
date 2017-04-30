@@ -88,7 +88,6 @@ namespace WindowsProcessControlTest
          * http://einboch.pixnet.net/blog/post/244599530-%E5%88%A9%E7%94%A8c%23%E7%A8%8B%E5%BC%8F%E4%BE%86%E6%8E%A7%E5%88%B6windows%E4%B8%AD%E7%9A%84%E8%99%95%E7%90%86%E7%A8%8B%E5%BA%8F
          * 
          * */
-
         
         public string[] getAllProcess()
         {
@@ -121,6 +120,5 @@ namespace WindowsProcessControlTest
             }
             return -1;
         }
-    }
-    
+    }    
 }
